@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/etk2gpn.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Polarity partners</title>
+  </head>
+  <body>
+    <!-- demodata -->
+    <div class="modal fade" id="demoData" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header nobrd cuspopHd">
+              <h5 class="modal-title" id="exampleModalLabel">Create a new Assessment</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body formLogin ptb-0">
+                <div class="alertinPopup">
+                    <span>Only <b>Certified & Licensed</b> users can create live assessments. Click continue to review a demo assessment.</span>
+                </div>
+                <div class="form-group cusGrp">
+                    <label for="uname1">Assessment Name</label> 
+                    <input class="form-control" id="uname1" name="uname1" required="" type="text" placeholder="Demo Assessment">
+                </div>
+            </div>
+            <div class="modal-footer nobrd">
+                <div class="btnsFooter pt-0">
+                    <button class="bkBtn">
+                        CANCEL
+                    </button>
+                    <button class="continBtn">
+                        CONTINUE
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- demodata -->
+    <!-- connect -->
+    <div class="modal fade" id="connect" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header nobrd cuspopHd">
+              <h5 class="modal-title" id="exampleModalLabel">Connect this Assessment</h5>              
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body formLogin ptb-0">
+                <div class="cintro">
+                    <p>You can connect this assessment to a previous assessment. Chaining assessments will display longitudinal progress data on the Results page for this assessment. Select the assessment in the list below that <b>preceded</b> this assessment.</p>
+                </div>
+                <div class="form-row cusFormRow">
+                    <div class="form-group cusGrp cusSelT">
+                      <label>Connect</label> 
+                      <select id="tstselect" name="tstselect">
+                        <option value="0">Connect</option>
+                        <option value="1">Connect</option>
+                        <option value="2">Connect</option>
+                      </select>
+                    </div>
+              </div>
+            </div>
+            <div class="modal-footer nobrd">
+                <div class="btnsFooter pt-0">
+                    <button class="bkBtn">
+                        CANCEL
+                    </button>
+                    <button class="continBtn">
+                        CONTINUE
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- survey -->
+    <div class="modal fade" id="survey" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header nobrd cuspopHd">           
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body formLogin ptb-0 survBody">
+                <div class="cintro surIntro">
+                    <h2>Survey URL</h2>
+                    <p>The following URL can be used by any respondent to open and submit a survey as part of this assessment.</p>
+                </div>
+                <div class="copySec">
+                    <div class="cpyLeft">
+                        <span>http://qa.assessmypolarities.com/avA6b1eW</span>
+                    </div>
+                    <div class="cpyRt">
+                        <span>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="390.217px" height="390.217px" viewBox="0 0 390.217 390.217" style="enable-background:new 0 0 390.217 390.217;" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <g id="Layer_5_97_">
+                                                <g>
+                                                    <path d="M248.053,132.891H7.918c-4.355,0-7.918,3.563-7.918,7.918v240.135c0,4.354,3.563,7.918,7.918,7.918h240.135      c4.354,0,7.917-3.562,7.917-7.918V140.809C255.97,136.454,252.406,132.891,248.053,132.891z"></path>
+                                                    <path d="M383.584,1.355H137.066c-3.65,0-6.632,2.985-6.632,6.632c0,0,0,56.778,0,104.47c0,4.242,4.263,4.356,4.263,4.356      h134.764c3.275,0,5.304,3.12,5.304,5.676v134.145c0,0,0.153,4.504,4.433,4.504c47.672,0,104.389,0,104.389,0      c3.646,0,6.631-2.983,6.631-6.631V7.986C390.215,4.34,387.229,1.355,383.584,1.355z"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- end -->
+    <section class="navBar">
+        <div class="container">
+            <div class="headerWrapper">
+                <div class="top_nav">
+                    <div class="top_left">
+                        <div class="logo desk_show">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="logo mob_show">
+                            <img src="img/logo3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="top_right">
+                        <div class="loggedIn">
+                            <div class="loggedIcon">
+                                <img src="./img/cl3.png" alt="">
+                            </div>
+                            <div class="loggedNm">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown navMenuItem">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Edwin Andrew
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainNav">
+                    <nav class="navbar navbar-expand-lg navbar-light bgNav">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active navMenuItem">
+                                    <a class="nav-link" href="#">Home </a>
+                                </li>
+                                <li class="nav-item navMenuItem">
+                                    <a class="nav-link" href="#">What We Do</a>
+                                </li>
+                                <li class="nav-item navMenuItem">
+                                    <a class="nav-link" href="#">Why Polarity Thinking?</a>
+                                </li>
+                                <li class="nav-item dropdown navMenuItem">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item navMenuItem">
+                                    <a class="nav-link" href="#">Certification & Licensing</a>
+                                </li>
+                                <li class="nav-item navMenuItem">
+                                    <a class="nav-link" href="#">Tools & Resources</a>
+                                </li>
+                                <li class="nav-item navMenuItem">
+                                    <a class="nav-link" href="#">Testimonials</a>
+                                </li>
+                                <li class="nav-item navMenuItem">
+                                    <a class="nav-link" href="#">Get Certified</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner subBanner" style="background-image: url(img/banner.png);">
+        <div class="container h100">
+            <div class="slWraper h100">
+                <div class="bannerSlider">
+                    <div class="bannerCon">
+                        <div class="bcSingle">
+                            <h1>My Polarity Assessments</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="searchBar">
+        <div class="container">
+            <div class="colNvWrap">
+                <div class="colLNavAmt">
+                    <div class="selPg">
+                        <select name="" id="">
+                            <option value="0">English</option>
+                            <option value="1">Malayalam</option>
+                            <option value="2">Hindi</option>
+                        </select>
+                    </div>
+                    <div class="srchRow">
+                        <input class="form-control" id="srch" name="Search" required="" type="text" placeholder="Search">
+                        <button class="btnSrch">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1    c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4    c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/>
+                                        </g>
+                                    </g>
+                                    </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="colRNavAmt">
+                    <button class="createAssBtn">
+                        <span class="plus">+</span>
+                        <span>Create New Assessment</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="archiveList">
+        <div class="container">
+            <div class="table-responsive no-overFlow">
+                <table class="table">
+                    <thead class="thead-inverse">
+                      <tr>
+                        <th class="tdCheck">
+                            <label>
+                                <div class="checkIn tblChk">
+                                    <input class="form-check-input" type="checkbox"> 
+                                    <span class="checkmark"></span>
+                                </div>
+                            </label>
+                        </th>
+                        <th>Name </th>
+                        <th>Responses</th>
+                        <th>Last Response</th>
+                        <th>Assessment Status</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tdCheck">
+                                <label>
+                                    <div class="checkIn tblChk">
+                                        <input class="form-check-input" type="checkbox"> 
+                                        <span class="checkmark"></span>
+                                    </div>
+                                </label>
+                            </td>
+                            <td>Assessment one</td>
+                            <td>185</td>
+                            <td>10/14/2021 5:55 am</td>
+                            <td>
+                                <div class="input-row ipRow">
+                                    <div class="toggle ifclosedTgl">
+                                        <span class="ifClosed">Closed Per <a href="#">Schedule</a></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="dropdown dropDots">
+                                    <button class="btn btn-sm btn-icon" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <!-- <i class="fa fa-ellipsis-v" data-toggle="tooltip" data-placement="top"
+                                        title="Actions"></i> -->
+                                        <div class="dots" data-toggle="tooltip" data-placement="top"
+                                        title="Actions">
+                                            <div class="dtin">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>   
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                      <a class="dropdown-item" href="#"><img src="./img/info.png" alt=""> Assessment Info</a>
+                                      <a class="dropdown-item" href="#"><img src="./img/preview.png" alt=""> Preview Assessment</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#survey"><img src="./img/link.png" alt=""> Survey URL (Anonymous)</a>
+                                      <a class="dropdown-item" href="#"><img src="./img/manage.png" alt=""> Manage Respondents</a>
+                                      <a class="dropdown-item" href="#"><img src="./img/explore.png" alt=""> Explore Results</a>
+                                      <hr/>
+                                      <a class="dropdown-item" href="#"><img src="./img/edit.png" alt=""> Edit</a>
+                                      <a class="dropdown-item" href="#"><img src="./img/dup.png" alt=""> Duplicate</a>
+                                      <a class="dropdown-item" href="#"><img src="./img/share.png" alt=""> Connect to previous assessment</a>
+                                      <a class="dropdown-item" href="#"><img src="./img/archive.png" alt=""> Archive</a>
+                                      <hr/>
+                                      <a class="dropdown-item" href="#"><img src="./img/data.png" alt=""> Populate Demo Data</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdCheck">
+                                <label>
+                                    <div class="checkIn tblChk">
+                                        <input class="form-check-input" type="checkbox"> 
+                                        <span class="checkmark"></span>
+                                    </div>
+                                </label>
+                            </td>
+                            <td>Assessment one</td>
+                            <td>185</td>
+                            <td>10/14/2021 5:55 am</td>
+                            <td>
+                                <div class="input-row ipRow">
+                                    <div class="toggle">
+                                        <input type="checkbox">
+                                        <span class="slider"></span>
+                                        <span class="label">Close</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="dropdown dropDots">
+                                    <button class="btn btn-sm btn-icon" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <!-- <i class="fa fa-ellipsis-v" data-toggle="tooltip" data-placement="top"
+                                        title="Actions"></i> -->
+                                        <div class="dots" data-toggle="tooltip" data-placement="top"
+                                        title="Actions">
+                                            <div class="dtin">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>   
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/info.png" alt=""> Assessment Info</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/preview.png" alt=""> Preview Assessment</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#survey"><img src="./img/link.png" alt=""> Survey URL (Anonymous)</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/manage.png" alt=""> Manage Respondents</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/explore.png" alt=""> Explore Results</a>
+                                      <hr/>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/edit.png" alt=""> Edit</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/dup.png" alt=""> Duplicate</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/share.png" alt=""> Connect to previous assessment</a>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#connect"><img src="./img/archive.png" alt=""> Archive</a>
+                                      <hr/>
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#demoData"><img src="./img/data.png" alt=""> Populate Demo Data</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+     <footer class="footer pt60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="fooItem">
+                        <h3>Address</h3>
+                        <div class="fooDec">
+                            <ul>
+                                <li>
+                                    <div class="pplocation">
+                                        <b class="ppnm">Polarity Partnerships</b> Sacramento | Washington, DC Grand Rapids | Colorado Springs
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="fooItem">
+                        <h3>Contact</h3>
+                        <div class="fooDec">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa fa-phone" aria-hidden="true"></i> (916) 793-5400</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><i class="fa fa-envelope" aria-hidden="true"></i> operations@polaritypartnerships.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="fooItem">
+                        <h3>Links</h3>
+                        <div class="fooDec">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span>Polarity Resource Portal</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Consulting Services </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span> Book Store</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span> Book Store</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cprt">
+                <div class="cpL">
+                    <span>© Copyright 2020 Polarity Partnerships, LLC, All Rights Reserved</span>
+                </div>
+                <div class="cpR">
+                    <div class="ss-icon fb">
+                        <span><i class="fa fa-facebook"></i></span>
+                    </div>
+                    <div class="ss-icon fb">
+                        <span><i class="fa fa-linkedin"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+          feather.replace();    
+
+$(document).ready(function(){
+    $('.toggle input[type="checkbox"]').click(function(){
+        $(this).parent().toggleClass('on');
+
+        if ($(this).parent().hasClass('on')) {
+            $(this).parent().children('.label').text('Open')
+        } else {
+            $(this).parent().children('.label').text('Close')
+        }
+    });
+});
+
+    </script>
+  </body>
+</html>
